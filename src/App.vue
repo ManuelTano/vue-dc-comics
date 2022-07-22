@@ -23,13 +23,9 @@ export default {
 
 <style lang="scss">
 
-#app {
-
-}
-
 body {
   font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
-  margin: 0 auto; 
+  margin: 0 auto;
   height: 100vh;
   background-color: black;
 }
@@ -43,5 +39,4 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 </style>
