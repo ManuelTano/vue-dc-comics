@@ -3,10 +3,16 @@
     <div class="container">
       <nav>
         <div class="image">
-          <img src="../assets/img/dc-logo.png" alt="dc-logo">
+          <img src="../assets/img/dc-logo.png" alt="dc-logo" />
         </div>
         <ul>
-          <li v-for="(link, i) in links" :key="i" :class="{active : link.current}"><a :href="link.url">{{link.text}}</a></li>
+          <li
+            v-for="(link, i) in links"
+            :key="i"
+            :class="{ active: link.current }"
+          >
+            <a :href="link.url">{{ link.text }}</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -16,7 +22,7 @@
 <script>
 export default {
   name: "MyHeader",
-   data() {
+  data() {
     return {
       links: [
         {
@@ -76,7 +82,6 @@ export default {
 </script>
 
 <style scoped>
-
 header {
   background-color: white;
 }
@@ -107,7 +112,8 @@ a {
   text-decoration: none;
 }
 
-.active {
-  color: #0282F9;
+.active a:hover {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
 }
 </style>
