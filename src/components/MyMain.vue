@@ -1,8 +1,9 @@
 <template>
-
-<div>
-
-</div>
+<main>
+  <div class="container">
+    <h2>--> Content goes here </h2>
+  </div>
+</main>
 
 </template>
 
@@ -13,5 +14,11 @@ export default {
 </script>
 
 <style>
+  h2 {
+    color: white;
+  }
 
+  main {
+    padding: 25px;
+  }
 </style>
