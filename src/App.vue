@@ -22,6 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/sass/_generics.scss';
 
 body {
   font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
@@ -35,8 +36,4 @@ body {
   width: 1200px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 </style>
