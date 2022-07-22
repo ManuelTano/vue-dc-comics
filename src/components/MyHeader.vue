@@ -84,6 +84,7 @@ export default {
 <style scoped>
 header {
   background-color: white;
+  max-height: 140px;
 }
 
 nav {
