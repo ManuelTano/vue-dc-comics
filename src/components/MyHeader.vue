@@ -3,7 +3,7 @@
     <div class="container">
       <nav>
         <div class="image">
-          <img src="../assets/img/dc-logo.png" alt="dc-logo" />
+          <img src="../assets/img/dc-logo.png" alt="dc-logo">
         </div>
         <ul>
           <li><a href="#">CHARACTERS</a></li>
@@ -28,7 +28,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 header {
   background-color: white;
 }
