@@ -7,15 +7,17 @@
 
 </template>
 
-<script>
+<script >
 export default {
   name: "MyMain",
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "../assets/sass/vars";
+
   h2 {
-    color: white;
+    color: $white;
   }
 
   main {

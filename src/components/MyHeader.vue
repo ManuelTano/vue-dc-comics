@@ -81,9 +81,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "../assets/sass/vars";
+
 header {
-  background-color: white;
+  background-color: $white;
   max-height: 140px;
 }
 
@@ -97,25 +99,24 @@ nav {
 ul {
   display: flex;
   align-items: center;
-}
 
-ul li {
-  height: 100%;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
+  li {
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
 }
 
 a {
-  color: grey;
+  color: $gray;
   padding: 0px 10px;
   text-decoration: none;
-}
 
-.active a:hover {
-  color: #0282f9;
-  border-bottom: 3px solid #0282f9;
+  .active a:hover {
+    color: $blue;
+    border-bottom: 3px solid $blue;
+  }
 }
-
 </style>

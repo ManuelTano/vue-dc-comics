@@ -84,7 +84,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "../assets/sass/vars";
+
+
 footer {
   background-image: url(../assets/img/footer-bg.jpg);
   background-size: cover;
@@ -109,7 +112,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: grey;
+  color: $gray;
 }
 
 .margin {
@@ -117,7 +120,7 @@ a {
 }
 
 h4 {
-  color: white;
+  color: $white;
 }
 
 .col-image {
@@ -139,17 +142,17 @@ img {
   padding-bottom: 20px;
 }
 .button {
-  border: 2px solid #0282f9;
+  border: 2px solid $blue;
   padding: 0 10px;
   cursor: pointer;
 }
 
 .white {
-  color: white;
+  color: $white;
 }
 
 .blue {
-  color: #0282f9;
+  color: $blue;
 }
 
 .col img {

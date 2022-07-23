@@ -22,18 +22,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/sass/_generics.scss';
-
-body {
-  font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
-  margin: 0 auto;
-  height: 100vh;
-  background-color: black;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1200px;
-}
+@import './assets/sass/_style.scss';
 
 </style>
