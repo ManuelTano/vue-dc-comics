@@ -32,7 +32,7 @@ export default {
 
 a {
   text-decoration: none;
-  color: white;
+  color: $white;
 }
 
 </style>
