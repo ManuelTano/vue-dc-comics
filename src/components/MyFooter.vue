@@ -112,7 +112,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: $gray;
+  color: $lightgray;
 }
 
 .margin {

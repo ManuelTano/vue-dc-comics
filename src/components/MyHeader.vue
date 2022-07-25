@@ -114,7 +114,7 @@ a {
   padding: 0px 10px;
   text-decoration: none;
 
-  .active a:hover {
+  .active:hover {
     color: $blue;
     border-bottom: 3px solid $blue;
   }
